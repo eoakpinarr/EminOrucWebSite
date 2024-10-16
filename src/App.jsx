@@ -42,6 +42,7 @@ const App = () => {
 
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            <Route path='*' element={<NotFound />}/>
           </Routes>
         </main>
         <Footer />
@@ -49,5 +50,15 @@ const App = () => {
     </div>
   );
 };
+
+const NotFound = () => {
+  return (
+    <div>
+      <h1>404 - Sayfa Bulunamadı</h1>
+      <p>Aradığınız sayfa mevcut değil. Lütfen başka bir sayfaya gidin.</p>
+    </div>
+  );
+};
+
 
 export default App;
