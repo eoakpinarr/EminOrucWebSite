@@ -1,0 +1,51 @@
+# Basit bir iş akışı, statik içeriği GitHub Pages'e dağıtmak için
+name: Deploy static content to Pages
+
+on:
+  # Varsayılan dala yapılan push'lar için çalışır
+  push:
+    branches: ['main']
+
+  # İş akışını manuel olarak çalıştırmanıza izin verir
+  workflow_dispatch:
+
+# GITHUB_TOKEN izinlerini GitHub Pages'e dağıtıma izin verecek şekilde ayarlayın
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Tek bir eş zamanlı dağıtıma izin ver
+concurrency:
+  group: 'pages'
+  cancel-in-progress: true
+
+jobs:
+  # Sadece dağıtım için tek bir iş
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+      - name: Install dependencies
+        run: npm ci
+      - name: Build
+        run: npm run build
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # dist klasörünü yükle
+          path: './dist'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
