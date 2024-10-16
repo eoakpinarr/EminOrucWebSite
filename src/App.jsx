@@ -20,12 +20,12 @@ import PrivateRoute from './PrivateRoute';
 const App = () => {
   return (
     <div className='flex flex-col min-h-screen'>
-      <Router>
+      <Router basename="/EminOrucWebSite">
         <ScrollToTop />
         <Navbar />
         <ContactMe />
         <main className='flex-grow'>
-          <Routes basename="/">
+          <Routes >
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/hizmetlerimiz" element={<Services />} />
