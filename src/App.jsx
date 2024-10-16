@@ -20,7 +20,7 @@ import PrivateRoute from './PrivateRoute';
 const App = () => {
   return (
     <div className='flex flex-col min-h-screen'>
-      <Router basename="/EminOrucWebSite">
+      <Router basename="/">
         <ScrollToTop />
         <Navbar />
         <ContactMe />

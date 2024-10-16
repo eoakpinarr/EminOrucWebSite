@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "eoakpinar.com.tr",
+  "homepage": "https://eoakpinar.com.tr",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
