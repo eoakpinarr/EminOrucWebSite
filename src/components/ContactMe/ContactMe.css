@@ -1,0 +1,52 @@
+.contact-button-container {
+    position: fixed; /* Sabit pozisyon */
+    top: 50%; /* Dikeyde ortala */
+    right: 10px; /* Sağ kenara tamamen yapıştır */
+    transform: translateY(-50%); /* Dikeyde tam ortalamak için */
+    z-index: 10; /* Diğer bileşenlerin üstünde görünsün */
+    width: '100%';
+  }
+  
+  .contact-button {
+    background-color: #007bff; /* Butonun arka plan rengi */
+    color: white; /* Yazı rengi */
+    border: none; /* Kenar yok */
+    border-radius: 5px; /* Kenar yuvarlama */
+    padding: 10px 40px; /* İç boşluk */
+    cursor: pointer; /* İmleci el şeklinde göster */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Gölge efekti */
+    margin: 0; /* Kenar boşluğu kaldırıldı */
+    width: '100%';
+  }
+  
+  .contact-options {
+    display: flex;
+    flex-direction: column; /* Dikeyde yerleştirme */
+    margin-bottom: 10px; /* Butonun üst kısmında seçenekler için boşluk */
+    opacity: 0; /* Başlangıçta görünmez */
+    transform: translateY(-20px); /* Yukarıdan kaydır */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Geçiş efektleri */
+    pointer-events: none; /* Etkileşimi devre dışı bırak */
+    position: absolute; /* Üst üste görünmesini sağlamak için */
+    bottom: 100%; /* Butonun tam üstünde konumlandır */
+    right: 0; /* Sağ kenara hizala */
+  }
+  
+  .contact-options.open {
+    opacity: 1; /* Görünür hale getir */
+    transform: translateY(0); /* Eski konumuna döndür */
+    pointer-events: auto; /* Etkileşimi yeniden etkinleştir */
+    width: '100%';
+  }
+  
+  .contact-options button {
+    background-color: #28a745; /* Seçenek butonunun arka plan rengi */
+    color: white; /* Yazı rengi */
+    border: none; /* Kenar yok */
+    border-radius: 5px; /* Kenar yuvarlama */
+    padding: 10px; /* İç boşluk */
+    margin: 5px 0; /* Üstten ve alttan boşluk */
+    cursor: pointer; /* İmleci el şeklinde göster */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Gölge efekti */
+    width: 100%; /* Sağ kenara hizalı */
+  }

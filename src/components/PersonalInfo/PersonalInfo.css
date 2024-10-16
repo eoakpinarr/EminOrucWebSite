@@ -1,0 +1,79 @@
+/* AboutUsSection.css */
+.about-me-section { 
+    padding: 0;
+  }
+  
+  .about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    padding: 40px 20px;
+  }
+  
+  .about-content {
+    flex: 1;
+    padding-right: 20px;
+    padding-left: 20px;
+
+  }
+  
+  .about-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-content p {
+    font-size: 1.1rem;
+    line-height: 1.3;
+    color: #000;
+  }
+  
+  .legal500 {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .legal500 h1 {
+    font-size: 1rem;
+    color: #2b4d76;
+  }
+  
+  .legal500 h1 span {
+    font-weight: bold;
+  }
+  
+  /* Responsive Media Queries */
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      text-align: start;
+    }
+  
+    .about-content {
+      padding-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .legal500 h1 {
+      font-size: 3rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-content h2 {
+      font-size: 1.5rem;
+    }
+  
+    .about-content p {
+      font-size: 1rem;
+    }
+  
+    .legal500 h1 {
+      font-size: 2.5rem;
+    }
+  }
+  

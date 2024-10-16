@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "name": "Tüm Makaleler",
+        "value": "all"
+    },
+    {
+        "id": "2",
+        "name": "Ceza Hukuku",
+        "value": "ceza-hukuku"
+    },
+    {
+        "id": "3",
+        "name": "İdare ve Vergi Hukuku",
+        "value": "idare-ve-vergi-hukuku"
+    },
+    {
+        "id": "4",
+        "name": "Anayasa Hukuku",
+        "value": "anayasa-hukuku"
+    },
+    {
+        "id": "5",
+        "name": "İnsan Hakları Hukuku",
+        "value": "insan-haklari-hukuku"
+    },
+    {
+        "id": "6",
+        "name": "Özel Hukuk",
+        "value": "ozel-hukuk"
+    },
+    {
+        "id": "7",
+        "name": "Kişisel Verileri Koruma Hukuku",
+        "value": "kisisel-verileri-koruma-hukuku"
+    }
+]

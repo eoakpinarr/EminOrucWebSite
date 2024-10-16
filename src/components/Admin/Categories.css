@@ -1,0 +1,26 @@
+.categories-container {
+    padding: 10px;
+  }
+  
+  .categories-container h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .categories-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .categories-container ul li {
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .categories-container ul li.active,
+  .categories-container ul li:hover {
+    background-color: #a91b1b; /* Kırmızı renk */
+    color: white;
+  }
+  

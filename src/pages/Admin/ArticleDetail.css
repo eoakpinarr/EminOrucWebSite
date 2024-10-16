@@ -1,0 +1,99 @@
+/* ArticleDetail.css */
+.article-detail-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .article-date {
+    font-size: 0.9rem;
+    color: gray;
+    margin-bottom: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .update-button,
+  .cancel-button,
+  .edit-button,
+  .delete-button,
+  .back-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .update-button {
+    background-color: #4CAF50; /* Yeşil */
+    color: white;
+  }
+  
+  .cancel-button {
+    background-color: #f44336; /* Kırmızı */
+    color: white;
+  }
+  
+  .edit-button {
+    background-color: #2196F3; /* Mavi */
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #f44336; /* Kırmızı */
+    color: white;
+  }
+  
+  .back-button {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #2196F3; /* Mavi */
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .button-container button:hover,
+  .back-button:hover {
+    opacity: 0.9; /* Hover efekti */
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .ReactQuill {
+    margin-top: 20px;
+  }
+  
+  .article-content {
+    margin-top: 20px;
+  }
+  
+  .article-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .buttons-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  

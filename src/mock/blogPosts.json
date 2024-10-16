@@ -1,0 +1,65 @@
+[
+    {
+        "id": "1",
+        "name": "makale-1",
+        "title": "Tüm Makaleler Üzerine Genel Bir Bakış",
+        "author": "Prof. Dr. Ahmet Yılmaz",
+        "date": "2024-10-01",
+        "content": "Bu makalede, tüm makalelerin kapsamı ve içeriği hakkında genel bir bakış sunulacaktır. Hukuk alanında önemli konuların ele alındığı bu makaleler, okurlara bilgi sağlamak amacıyla hazırlanmıştır.",
+        "category": "Ceza Hukuku"
+    },
+    {
+        "id": "2",
+        "name": "makale-2",
+        "title": "Ceza Hukukunda Yenilikler",
+        "author": "Dr. Mehmet Kaya",
+        "date": "2024-10-02",
+        "content": "Ceza hukuku, toplumsal düzenin sağlanmasında önemli bir role sahiptir. Bu yazıda, ceza hukukunda son dönemlerde yapılan yenilikler ve değişiklikler üzerinde durulacaktır.",
+        "category": "Ceza Hukuku"
+    },
+    {
+        "id": "3",
+        "name": "makale-3",
+        "title": "İdare ve Vergi Hukuku Arasındaki İlişki",
+        "author": "Av. Elif Arslan",
+        "date": "2024-10-03",
+        "content": "İdare hukuku ve vergi hukuku, kamu hukuku alanının iki önemli dalıdır. Bu yazıda, bu iki alan arasındaki ilişkiyi ve etkileşimi inceleyeceğiz.",
+        "category": "İdare ve Vergi Hukuku"
+    },
+    {
+        "id": "4",
+        "name": "makale-4",
+        "title": "Anayasa Hukukunun Temelleri",
+        "author": "Dr. Ali Demir",
+        "date": "2024-10-04",
+        "content": "Anayasa hukuku, devletin temel yapısını belirleyen en önemli hukuk dalıdır. Bu makalede, anayasa hukukunun temelleri ve önemi üzerinde durulacaktır.",
+        "category": "Anayasa Hukuku"
+    },
+    {
+        "id": "5",
+        "name": "makale-5",
+        "title": "İnsan Hakları Hukuku ve Uygulamaları",
+        "author": "Av. Zeynep Çelik",
+        "date": "2024-10-05",
+        "content": "İnsan hakları hukuku, bireylerin haklarını korumak amacıyla oluşturulmuş bir alandır. Bu yazıda, insan hakları hukukunun tarihçesi ve uygulama alanları ele alınacaktır.",
+        "category": "İnsan Hakları Hukuku"
+    },
+    {
+        "id": "6",
+        "name": "makale-6",
+        "title": "Özel Hukukta Dikkat Edilmesi Gerekenler",
+        "author": "Prof. Dr. Ayşe Koç",
+        "date": "2024-10-06",
+        "content": "Özel hukuk, bireyler arasındaki ilişkileri düzenleyen hukuk dalıdır. Bu makalede, özel hukukta dikkat edilmesi gereken temel unsurlar üzerinde durulacaktır.",
+        "category": "Özel Hukuk"
+    },
+    {
+        "id": "7",
+        "name": "makale-7",
+        "title": "Kişisel Verilerin Korunması: Güncel Durum",
+        "author": "Dr. Ahmet Kurt",
+        "date": "2024-10-07",
+        "content": "Kişisel verilerin korunması, günümüzde önemli bir mesele haline gelmiştir. Bu yazıda, kişisel verilerin korunması ile ilgili mevcut durum ve yasalar ele alınacaktır.",
+        "category": "Kişisel Verileri Koruma Hukuku"
+    }
+]
