@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://eoakpinarr.github.io/EminOrucWebSite",
+  "homepage": "eoakpinar.com.tr",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
