@@ -7,6 +7,7 @@ import ReactQuill from 'react-quill';
 import Select from 'react-select';
 import './ArticleDetail.css';
 import 'react-quill/dist/quill.snow.css';
+import { Link } from 'react-router-dom';
 
 const categories = [
   { value: 'Ceza Hukuku', label: 'Ceza Hukuku' },
@@ -165,7 +166,8 @@ const ArticleDetail = () => {
               <button onClick={handleDelete} className="delete-button">Sil</button>
             </div>
           )}
-          <a href="/blog" className="back-button">Geri Dön</a>
+          <Link to='/blog' className='back-button'>Geri Dön</Link>
+
         </div>
       )}
     </div>
