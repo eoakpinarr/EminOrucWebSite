@@ -25,7 +25,7 @@ const App = () => {
         <Navbar />
         <ContactMe />
         <main className='flex-grow'>
-          <Routes basename="/EminOrucWebSite">
+          <Routes basename="/">
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/hizmetlerimiz" element={<Services />} />
