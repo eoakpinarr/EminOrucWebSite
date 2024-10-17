@@ -41,8 +41,8 @@ const App = () => {
             <Route path="/edit/:id" element={<PrivateRoute><ArticleDetail /></PrivateRoute>} />
 
             <Route path="/login" element={<Login />} />
-            <Route path="/register" element={<Register />} />
-            <Route path='*' element={<NotFound />}/>
+            {/** <Route path="/register" element={<Register />} />*/}
+            <Route path='*' element={<NotFound />} />
           </Routes>
         </main>
         <Footer />
