@@ -25,7 +25,7 @@ const Slider = () => {
                 loop={true}
                 speed={3000}
                 autoplay={{
-                    delay: 500,
+                    delay: 1000,
                     disableOnInteraction: false,
                 }}
             >
