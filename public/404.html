@@ -5,9 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sayfa Bulunamadı</title>
   <script type="text/javascript">
-    const redirectTo = window.location.pathname;
-    if (redirectTo !== "/") {
-      window.location.replace(`${window.location.origin}/#${redirectTo}`);
+    // Kullanıcıyı ana sayfaya yönlendirmek için
+    window.onload = function() {
+      const redirectTo = window.location.pathname;
+      // Eğer URL ana sayfa değilse yönlendirme yap
+      if (redirectTo !== "/") {
+        // Yönlendirme URL'si oluştur
+        const newURL = `${window.location.origin}/${redirectTo}`;
+        // Kullanıcıyı yönlendir
+        window.location.replace(newURL);
+      } else {
+        // Ana sayfada kalıyorsanız, kullanıcıya mesaj göster
+        document.body.innerHTML = "<h1>Hoş Geldiniz</h1><p>Ana sayfadasınız.</p>";
+      }
     }
   </script>
 </head>
