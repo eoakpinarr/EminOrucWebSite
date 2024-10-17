@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sayfa Bulunamadı</title>
+  <script type="text/javascript">
+    const redirectTo = window.location.pathname;
+    if (redirectTo !== "/") {
+      window.location.replace(`${window.location.origin}/#${redirectTo}`);
+    }
+  </script>
+</head>
+<body>
+  <h1>Yönlendiriliyor...</h1>
+  <p>Sayfa bulunamadı, ana sayfaya yönlendiriliyorsunuz...</p>
+</body>
+</html>
