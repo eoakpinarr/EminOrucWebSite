@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+html, body {
+  overflow: auto;
+  scroll-behavior: smooth; /* Geçişi yumuşak hale getirir */
+}
+
+.text-shadow {
+    @apply shadow-text-lg;
+  }
+  
