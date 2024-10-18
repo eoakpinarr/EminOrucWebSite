@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eoakpinar.com.tr/sitemap.xml
