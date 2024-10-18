@@ -23,6 +23,8 @@ const Slider = () => {
                 modules={[Navigation, Autoplay]}
                 navigation
                 loop={true}
+                slidesPerView={1} // veya ihtiyaca göre ayarla
+                slidesPerGroup={1} // veya ihtiyaca göre ayarla
                 speed={3000}
                 autoplay={{
                     delay: 1000,
