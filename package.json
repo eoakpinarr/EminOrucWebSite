@@ -3,14 +3,15 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://eoakpinar.com.tr",
+  "homepage": "https://muhammedeminoruc.av.tr",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "postbuild": "copy public\\sitemap.xml dist\\sitemap.xml"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.6.0",

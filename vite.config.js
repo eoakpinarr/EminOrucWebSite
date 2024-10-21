@@ -6,9 +6,10 @@ export default defineConfig({
   plugins: [
     react(),
     sitemap({
-      hostname: 'https://eoakpinar.com.tr', // Sitenizin ana URL'si
+      hostname: 'https://muhammedeminoruc.av.tr', // Sitenizin ana URL'si
       // Opsiyonel: Ekstra yollar veya sayfalar ekleyebilirsiniz
       routes: [
+        '/',
         '/about', 
         '/hizmetlerimiz', 
         '/blog', 
