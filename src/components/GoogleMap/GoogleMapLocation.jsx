@@ -12,7 +12,6 @@ const GoogleMapLocation = () => {
           borderRadius: '20px'
         }}
         allowFullScreen=""
-        loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
     </div>
