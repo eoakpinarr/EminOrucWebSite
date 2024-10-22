@@ -11,12 +11,12 @@ export default defineConfig({
       // Opsiyonel: Ekstra yollar veya sayfalar ekleyebilirsiniz
       routes: [
         '/',
-        '/about', 
-        '/hizmetlerimiz', 
-        '/blog', 
-        '/contact', 
-        '/hizmetlerimiz/ceza-hukuku', 
-        '/hizmetlerimiz/aile-hukuku', 
+        '/about',
+        '/hizmetlerimiz',
+        '/blog',
+        '/contact',
+        '/hizmetlerimiz/ceza-hukuku',
+        '/hizmetlerimiz/aile-hukuku',
         '/hizmetlerimiz/miras-hukuku',
         '/hizmetlerimiz/gayrimenkul-hukuku',
         '/hizmetlerimiz/ticaret-hukuku',
@@ -28,10 +28,26 @@ export default defineConfig({
       ], // Elle eklemek istediğiniz yollar
     }),
     viteImagemin({
-      gifsicle: { optimizationLevel: 7 },
-      optipng: { optimizationLevel: 7 },
-      mozjpeg: { quality: 75 },
-      svgo: { plugins: [{ removeViewBox: false }] },
+      gifsicle: {
+        optimizationLevel: 7,
+        interlaced: false,
+      },
+      optipng: {
+        optimizationLevel: 7,
+      },
+      mozjpeg: {
+        quality: 75,
+      },
+      pngquant: {
+        quality: [0.65, 0.8],
+        speed: 4,
+      },
+      svgo: {
+        plugins: [
+          { removeViewBox: false },
+          { removeEmptyAttrs: false },
+        ],
+      },
     }),
   ],
   build: {
@@ -41,6 +57,15 @@ export default defineConfig({
         drop_console: true, // Konsol loglarını çıkar
       },
     },
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            return id.toString().split('node_modules/')[1].split('/')[0].toString();
+          }
+        }
+      }
+    }
   },
   base: '/' // GitHub Pages için
 });
