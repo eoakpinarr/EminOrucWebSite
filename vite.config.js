@@ -42,6 +42,9 @@ export default defineConfig({
         quality: [0.65, 0.8],
         speed: 4,
       },
+      webp: {
+        quality: 75, // WebP için kalite ayarı
+      },
       svgo: {
         plugins: [
           { removeViewBox: false },
