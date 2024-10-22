@@ -2,61 +2,61 @@
     {
         "id": 1,
         "title": "Ceza Hukuku",
-        "image": "https://okke.av.tr/wp-content/uploads/2022/07/ceza-hukuku.jpg",
+        "image": "/images/ceza-hukuku.webp",
         "description": "ORUÇ HUKUK & DANIŞMANLIK Avukatlık Ofisimiz; Erzincan’da ve 81 ilimizde\nAğır ceza, asliye ceza, sulh ceza mahkemelerinde yürütülen davalarda, ceza soruşturmalarında Ceza hukuku ve Ceza Yargılaması Hukuku alanında uzmanlaşarak, soruşturma ve kovuşturma işlemleri ile şikayet ve davalarda etkin ve hızlı çözümler sunmaktadır."
     },
     {
         "id": 2,
         "title": "Aile Hukuku",
-        "image": "https://static.wixstatic.com/media/e38e6a_7219570e28e34e6baf920bef8db3c307~mv2.jpg/v1/fill/w_576,h_408,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Aile%20Hukuku.jpg",
+        "image": "/images/aile-hukuku.webp",
         "description": "ORUÇ HUKUK & DANIŞMANLIK Avukatlık Ofisimiz; Erzincan’da ve 81 ilimizde Aile Hukukunda kaynaklı, çekişmeli boşanma davası, anlaşmalı boşanma davası, nafaka davaları, velayet davaları, mal rejimi davası, soybağı davaları, evlatlık davaları, babalık davası, evliliğin feshi davası gibi Aile Hukukunda kaynaklı davalarda sizlere etkin, hızlı ve çözüm odaklı hizmet sunmaktadır."
     },
     {
         "id": 3,
         "title": "Miras Hukuku",
-        "image": "https://www.mgc.com.tr/wp-content/uploads/2022/05/miras-hukuku-ve-miras-paylasimi-tr-mgc-legal.jpg",
+        "image": "/images/miras-hukuku.webp",
         "description": "ORUÇ HUKUK & DANIŞMANLIK Avukatlık Ofisimiz; Erzincan’da ve 81 ilimizde, Miras Hukukundan kaynaklı, tenkis davası, ortaklığın giderilmesi, izale-i şuyu davası, muvazaa davası, terekenin tespiti davası, denkleştirme davası, veraset ilamının iptali davası gibi Miras Hukukundan kaynaklı davalarda sizlere etkin, hızlı ve çözüm odaklı hizmet sunmaktadır."
     },
     {
         "id": 4,
         "title": "Gayrimenkul Hukuku",
-        "image": "https://www.madhukuk.com/wp-content/uploads/2019/11/konut.jpg",
+        "image": "/images/gayrimenkul.webp",
         "description": "ORUÇ HUKUK & DANIŞMANLIK Avukatlık Ofisimiz; Erzincan’da ve 81 ilimizde, Gayrimenkul Hukukundan kaynaklı, kamulaştırma, ortaklığın giderilmesi, izale-i şuyu, tapu iptal tescil davası, arsa payı karşılığı inşaat sözleşmesinden kaynaklı davalar gibi Gayrimenkul Hukukundan kaynaklı davalarda sizlere etkin, hızlı ve çözüm odaklı hizmet sunmaktadır."
     },
     {
         "id": 5,
         "title": "Ticaret Hukuku",
-        "image": "https://www.bogazicihukuk.com.tr/Uploads/Sayfalar/ticaret-avukat_2352019_111224_2.png",
+        "image": "/images/ticaret-hukuku.webp",
         "description": "ORUÇ HUKUK & DANIŞMANLIK Avukatlık Ofisimiz; Erzincan’da ve 81 ilimizde, Ticaret Hukukundan kaynaklı, şirket kuruluşu, ticari uyuşmazlıklardan doğan davalar, şirket danışmanlığı gibi konularda sizlere etkin, hızlı ve çözüm odaklı hizmet sunmaktadır."
     },
     {
         "id": 6,
         "title": "İdare Hukuku",
-        "image": "https://par.av.tr/wp-content/uploads/2022/12/idarehukuku-1024x431.webp",
+        "image": "/images/idare-hukuku.webp",
         "description": "ORUÇ HUKUK & DANIŞMANLIK Avukatlık Ofisimiz; Erzincan’da ve 81 ilimizde, İdare Hukukundan kaynaklı, idari işlemin iptali davaları, disiplin ve atama işlemlerine ilişkin davalar, tam yargı davaları, idarenin kusurundan kaynaklı davalar gibi İdare Hukukundan kaynaklı davalarda sizlere etkin, hızlı ve çözüm odaklı hizmet sunmaktadır."
     },
     {
         "id": 7,
         "title": "Kira Hukuku",
-        "image": "https://media.licdn.com/dms/image/D4D12AQGORpDW4NheKA/article-cover_image-shrink_600_2000/0/1708782811669?e=2147483647&v=beta&t=BSg4mdxPwUfU5SrRy-b9IJ0eXsCF-dkWsPD5CXTuLOc",
+        "image": "/images/kira-hukuku.webp",
         "description": "ORUÇ HUKUK & DANIŞMANLIK Avukatlık Ofisimiz; Erzincan’da ve 81 ilimizde, Kira Hukukundan kaynaklı, kira tespit davası, tahliye davaları, kira sözleşmesi hazırlanması, kira alacağı davası gibi Kira Hukukundan kaynaklı davalarda sizlere etkin, hızlı ve çözüm odaklı hizmet sunmaktadır."
     },
     {
         "id": 8,
         "title": "İş Hukuku",
-        "image": "https://www.sevbanhukuk.com/admin/dimg/hizmetler/643d57449b55e.jpg",
+        "image": "/images/is-hukuku.webp",
         "description": "ORUÇ HUKUK & DANIŞMANLIK Avukatlık Ofisimiz; Erzincan’da ve 81 ilimizde, İş Hukukundan kaynaklı, İşçilik alacakları, kıdem tazminatı, ihbar tazminatı, ücret alacağı, fazla mesai alacağı gibi işçilik alacakları davaları, işe iade davaları, tazminat davaları gibi İş Hukukundan kaynaklı davalarda sizlere etkin, hızlı ve çözüm odaklı hizmet sunmaktadır."
     },
     {
         "id": 9,
         "title": "İcra Hukuku",
-        "image": "https://asahukuk.com/wp-content/uploads/2021/08/icra-iflas.jpg.webp",
+        "image": "/images/icra-hukuku.webp",
         "description": "ORUÇ HUKUK & DANIŞMANLIK Avukatlık Ofisimiz; Erzincan’da ve 81 ilimizde, İcra Hukukundan kaynaklı, alacaklarınız, senet, çek alacaklarınızın icrası, tahsilatı gibi İcra Hukukundan kaynaklı davalarda sizlere etkin, hızlı ve çözüm odaklı hizmet sunmaktadır."
     },
     {
         "id": 10,
         "title": "Araç Değer Kaybı",
-        "image": "https://www.atlashasar.com/wp-content/uploads/2022/07/arac-deger-kaybi.jpeg",
+        "image": "/images/arac-deger-kaybi.webp",
         "description": "ORUÇ HUKUK & DANIŞMANLIK Avukatlık Ofisimiz; Erzincan’da ve 81 ilimizde, Sigorta Hukukundan kaynaklı, araç değer kaybı, maddi hasar, araç pert bedeli gibi Sigorta hukukundan kaynaklı davalarda sizlere etkin, hızlı ve çözüm odaklı hizmet sunmaktadır."
     }
 ]
