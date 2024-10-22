@@ -7,10 +7,10 @@ import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
 
-import Image1 from '../../assets/images/SlideImages/1-1.webp';
-import Image2 from '../../assets/images/SlideImages/3.webp';
-import Image3 from '../../assets/images/SlideImages/1-1.webp';
-import Image4 from '../../assets/images/SlideImages/3.webp';
+import Image1 from '../../assets/images/SlideImages/1.webp';
+import Image2 from '../../assets/images/SlideImages/3-2.webp';
+import Image3 from '../../assets/images/SlideImages/1.webp';
+import Image4 from '../../assets/images/SlideImages/3-2.webp';
 
 const Slider = () => {
     return (
