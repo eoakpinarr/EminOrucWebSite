@@ -31,10 +31,10 @@ const Slider = () => {
                 autoplay={{ delay: 1000 }}
             >
                 <SwiperSlide>
-                    <img src={Image1} alt="Avukat Muhammed Emin ORUÇ" loading="lazy" />
+                    <img src={Image1} alt="Avukat Muhammed Emin ORUÇ" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={Image2} alt="ORUÇ Hukuk & Danışmanlık" loading="lazy" />
+                    <img src={Image2} alt="ORUÇ Hukuk & Danışmanlık" />
                 </SwiperSlide>
             </Swiper>
         </div>

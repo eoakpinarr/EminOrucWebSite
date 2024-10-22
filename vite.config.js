@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import sitemap from 'vite-plugin-sitemap';
+import viteImagemin from 'vite-plugin-imagemin';
 
 export default defineConfig({
   plugins: [
@@ -26,6 +27,20 @@ export default defineConfig({
         '/hizmetlerimiz/araç-değer-kaybı'
       ], // Elle eklemek istediğiniz yollar
     }),
+    viteImagemin({
+      gifsicle: { optimizationLevel: 7 },
+      optipng: { optimizationLevel: 7 },
+      mozjpeg: { quality: 75 },
+      svgo: { plugins: [{ removeViewBox: false }] },
+    }),
   ],
+  build: {
+    minify: 'terser', // Terser kullanarak minify et
+    terserOptions: {
+      compress: {
+        drop_console: true, // Konsol loglarını çıkar
+      },
+    },
+  },
   base: '/' // GitHub Pages için
 });
