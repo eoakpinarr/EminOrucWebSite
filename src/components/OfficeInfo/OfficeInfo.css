@@ -1,7 +1,6 @@
 /* AboutUsSection.css */
 .about-us-section {
-    /* Yeşil arka plan */
-       padding: 40px 0;
+       padding: 0;
      }
      
      .about-container {
@@ -15,7 +14,7 @@
      
      .about-content {
        flex: 1;
-       padding: 20px;
+       padding: 10px;
      }
      
      .about-content h2 {

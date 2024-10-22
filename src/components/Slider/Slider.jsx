@@ -1,31 +1,40 @@
-// src/components/ImageSlider.js
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Slider.css';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Autoplay } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 import Image1 from '../../assets/images/SlideImages/1.webp';
 import Image2 from '../../assets/images/SlideImages/3-2.webp';
 
 const Slider = () => {
+    useEffect(() => {
+        const preloadImages = () => {
+            const img1 = new Image();
+            const img2 = new Image();
+            img1.src = Image1;
+            img2.src = Image2;
+        };
+
+        preloadImages();
+    }, []);
+
     return (
-        <div className="slider-container 2xl:mb-40 mb-10"> {/* Slider container ile sarıyoruz */}
+        <div className="slider-container mb-10">
             <Swiper
-                slidesPerView={1} // Sadece bir slayt göster
-                slidesPerGroup={1} // Gruplama için 1
-                modules={[Navigation, Autoplay]}
-                navigation
-                loop={true} // Döngü modu
-                speed={3000} // Geçiş hızı
-                autoplay={{ delay: 1000 }} // Otomatik kaydırma
+                slidesPerView={1}
+                slidesPerGroup={1}
+                modules={[Autoplay]}
+                loop={true}
+                speed={3000}
+                autoplay={{ delay: 1000 }}
             >
                 <SwiperSlide>
-                    <img src={Image1} alt="Avukat Muhammed Emin ORUÇ" loading="lazy"/>
+                    <img src={Image1} alt="Avukat Muhammed Emin ORUÇ" loading="lazy" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={Image2} alt="ORUÇ Hukuk & Danışmanlık" loading="lazy"/>
+                    <img src={Image2} alt="ORUÇ Hukuk & Danışmanlık" loading="lazy" />
                 </SwiperSlide>
             </Swiper>
         </div>

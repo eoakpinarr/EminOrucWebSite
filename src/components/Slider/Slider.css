@@ -1,4 +1,3 @@
-/* src/components/Slider.css */
 
 .slider-container {
   width: 100%;
@@ -9,31 +8,24 @@
   position: relative; /* Pozisyonu göreceli yaparak daha iyi kontrol */
 }
 
-.swiper-slide {
-  display: flex; /* Her bir slide'ın içerik düzenini ayarlıyoruz */
-  justify-content: center; /* Resmi yatayda ortalayacak */
-  align-items: flex-start; /* Resmi üstten başlatacak */
-  height: 100%; /* Yüksekliği %100 yaparak üstten başlamasını sağlıyoruz */
-}
-
 .slider-container img {
-  width: 100%;
+  width: 100vw;
   height: 40vh; /* Genişliğe göre otomatik yükseklik */
   object-fit: cover; /* Resmin kapsama stilini ayarlıyoruz */
-  
+  object-position: center;
 }
 
 /* Küçük ekranlar için */
 @media (max-width: 1440px) {
-  .swiper-slide img {
+  .slider-container img {
       height: auto; /* Küçük ekranlarda yükseklik otomatik */
-      max-height: 60vh; /* Ekranın yüksekliği ile sınırla */
+      max-height: 50vh; /* Ekranın yüksekliği ile sınırla */
   }
 }
 
 /* 1441px ve üzeri için yükseklik ayarlaması */
 @media (min-width: 1441px) {
-  .swiper-slide img {
-      height: 90vh; /* Yüksekliği artırabiliriz */
+  .slider-container img {
+      height: 70vh; /* Yüksekliği artırabiliriz */
   }
 }

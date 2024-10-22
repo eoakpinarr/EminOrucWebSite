@@ -9,13 +9,12 @@
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    font-family: 'Raleway', sans-serif;
     padding: 40px 20px;
   }
   
   .about-content {
     flex: 1;
-    padding: 20px;
+    padding: 10px;
 
   }
   
