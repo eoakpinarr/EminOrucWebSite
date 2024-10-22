@@ -14,7 +14,6 @@ import BlogPage from './pages/Admin/BlogPage';
 import CreateArticle from './pages/Admin/CreateArticles';
 import ArticleDetail from './pages/Admin/ArticleDetail';
 import Login from './pages/Admin/Login';
-import Register from './pages/Admin/Register';
 import PrivateRoute from './PrivateRoute';
 
 const App = () => {

@@ -27,7 +27,7 @@
 @media (max-width: 1440px) {
   .swiper-slide img {
       height: auto; /* Küçük ekranlarda yükseklik otomatik */
-      max-height: 75vh; /* Ekranın yüksekliği ile sınırla */
+      max-height: 60vh; /* Ekranın yüksekliği ile sınırla */
   }
 }
 

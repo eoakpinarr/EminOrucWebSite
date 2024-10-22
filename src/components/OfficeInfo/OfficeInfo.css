@@ -15,9 +15,7 @@
      
      .about-content {
        flex: 1;
-       padding-right: 20px;
-       padding-left: 20px;
-   
+       padding: 20px;
      }
      
      .about-content h2 {
@@ -33,20 +31,6 @@
        text-align: start;
      }
      
-     .legal500 {
-       text-align: center;
-       flex: 1;
-     }
-     
-     .legal500 h1 {
-       font-size: 5rem;
-       color: #2b4d76;
-     }
-     
-     .legal500 h1 span {
-       font-weight: bold;
-     }
-     
      /* Responsive Media Queries */
      @media (max-width: 1024px) {
        .about-container {
@@ -58,10 +42,6 @@
          padding-right: 0;
          margin-bottom: 20px;
        }
-     
-       .legal500 h1 {
-         font-size: 3rem;
-       }
      }
      
      @media (max-width: 480px) {
@@ -71,10 +51,6 @@
      
        .about-content p {
          font-size: 1rem;
-       }
-     
-       .legal500 h1 {
-         font-size: 2.5rem;
        }
      }
      

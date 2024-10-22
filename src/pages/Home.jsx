@@ -3,7 +3,6 @@ import Slider from '../components/Slider/Slider'
 import PersonalInfo from '../components/PersonalInfo/PersonalInfo'
 import OfficeInfo from '../components/OfficeInfo/OfficeInfo'
 import ServicesHome from '../components/ServicesHome/ServicesHome'
-import BlogHome from '../components/BlogHome/BlogHome'
 
 const Home = () => {
   return (
@@ -16,7 +15,6 @@ const Home = () => {
       <hr />
       <ServicesHome />
       <hr />
-      {/*<BlogHome />*/}
     </div>
   )
 }
