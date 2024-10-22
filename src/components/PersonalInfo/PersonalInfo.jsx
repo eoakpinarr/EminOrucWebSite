@@ -1,5 +1,5 @@
 import React from 'react'
-import EminOruc2 from '../../assets/images/emin-oruc2.png'
+import EminOruc2 from '../../assets/images/emin-oruc2.webp'
 import './PersonalInfo.css'
 
 const PersonalInfo = () => {
