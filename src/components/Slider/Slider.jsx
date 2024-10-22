@@ -6,11 +6,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
-
 import Image1 from '../../assets/images/SlideImages/1.webp';
 import Image2 from '../../assets/images/SlideImages/3-2.webp';
-import Image3 from '../../assets/images/SlideImages/1.webp';
-import Image4 from '../../assets/images/SlideImages/3-2.webp';
 
 const Slider = () => {
     return (
@@ -25,22 +22,10 @@ const Slider = () => {
                 autoplay={{ delay: 1000 }} // Otomatik kaydırma
             >
                 <SwiperSlide>
-                    <img src={Image1} alt="Avukat Muhammed Emin ORUÇ" />
+                    <img src={Image1} alt="Avukat Muhammed Emin ORUÇ" loading="lazy"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={Image2} alt="ORUÇ Hukuk & Danışmanlık" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={Image3} alt="Avukat Muhammed Emin ORUÇ" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={Image4} alt="ORUÇ Hukuk & Danışmanlık" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={Image3} alt="Avukat Muhammed Emin ORUÇ" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={Image4} alt="ORUÇ Hukuk & Danışmanlık" />
+                    <img src={Image2} alt="ORUÇ Hukuk & Danışmanlık" loading="lazy"/>
                 </SwiperSlide>
             </Swiper>
         </div>

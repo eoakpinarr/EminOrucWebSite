@@ -4,7 +4,6 @@
   width: 100%;
   height: auto; /* Yükseklik ayarlaması */
   display: flex;
-  z-index: 1;
   justify-content: center;
   align-items: center; /* Üstten başlaması için */
   position: relative; /* Pozisyonu göreceli yaparak daha iyi kontrol */
@@ -21,6 +20,7 @@
   width: 100%;
   height: 40vh; /* Genişliğe göre otomatik yükseklik */
   object-fit: cover; /* Resmin kapsama stilini ayarlıyoruz */
+  
 }
 
 /* Küçük ekranlar için */
