@@ -5,8 +5,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
-import Image1 from '../../assets/images/SlideImages/1.webp';
-import Image2 from '../../assets/images/SlideImages/3-2.webp';
+import Image1 from '../../../public/assets/SlideImages/1.webp';
+import Image2 from '../../../public/assets/SlideImages/3-2.webp';
 
 const Slider = () => {
     useEffect(() => {
@@ -34,7 +34,7 @@ const Slider = () => {
                     <img src={Image1} alt="Avukat Muhammed Emin ORUÇ" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={Image2} alt="ORUÇ Hukuk & Danışmanlık" />
+                    <img src={Image2} alt="ORUÇ Hukuk & Danışmanlık" loading="lazy"/>
                 </SwiperSlide>
             </Swiper>
         </div>

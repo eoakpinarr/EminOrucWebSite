@@ -55,6 +55,7 @@ export default defineConfig({
     terserOptions: {
       compress: {
         drop_console: true, // Konsol loglarını çıkar
+        drop_debugger: true, // Debugger'ı kaldırır
       },
     },
     rollupOptions: {
